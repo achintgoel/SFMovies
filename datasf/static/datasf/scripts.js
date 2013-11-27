@@ -37,7 +37,7 @@ $.ajaxSetup({
     }
 });
 
-function initialize() {
+function mapInit() {
 	  geocoder = new google.maps.Geocoder();
 	  map = new google.maps.Map(document.getElementById('map-canvas'), {
 	    mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -77,7 +77,7 @@ function onPlaceOnMap(place) {
 
 }
 
-
+//Callback for when Search button is clicked
 function onSearchFilm() {
     var film_title = jQuery("#film_title").val();
     var film_data = FILMS_DATA[film_title];
@@ -88,7 +88,7 @@ function onSearchFilm() {
     map.fitBounds(SF_BOUNDS);
     map.setCenter(SF_LOCATION);
 
-    //delete all previous markers
+    //Delete all previous markers
     for (var i = 0, marker; marker = markers[i]; i++) {
 	      marker.setMap(null);
 	    }
@@ -100,8 +100,10 @@ function onSearchFilm() {
             var request = { bounds: SF_BOUNDS,
                             query: data.locations
                             };
+            //Since location isnt an exact lat lng coordinates, call google services
             service.textSearch(request, function(results, status) {
                 if (status == google.maps.places.PlacesServiceStatus.OK) {
+                  //Get the top result
                   var place = results[0];
                   onPlaceOnMap(place);
                 }
@@ -128,7 +130,7 @@ function searchInit() {
 }
 
 function prepareDocument() {
-    initialize();
+    mapInit();
     searchInit();
 
 }
