@@ -97,10 +97,11 @@ function onSearchFilm() {
 
 	markers = [];
 
-	jQuery("#search_results_description").html('<p class="text-muted">Showing Results for <strong>'+film_title+'</strong></p>')
+
 
     for(var i = 0, data; data = film_data[i]; i++) {
         if(data.locations) {
+            jQuery("#search_results_description").html('<p class="text-muted">Showing Results for <strong>'+film_title+'</strong></p>')
             var request = { bounds: SF_BOUNDS,
                             query: data.locations
                             };
@@ -113,6 +114,8 @@ function onSearchFilm() {
                 }
 
             });
+	    } else {
+	        jQuery("#search_results_description").html('<p class="text-muted">No Location Data Exists for <strong>'+film_title+'</strong></p>')
 	    }
     }
 }
