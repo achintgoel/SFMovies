@@ -26,7 +26,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sfmovies/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2284" selection-end="2284" vertical-scroll-proportion="-16.576923" vertical-offset="799" max-vertical-offset="1470">
+            <state line="84" column="0" selection-start="1987" selection-end="1987" vertical-scroll-proportion="-16.576923" vertical-offset="829" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datasf/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="229" selection-end="229" vertical-scroll-proportion="0.17883755" vertical-offset="0" max-vertical-offset="671">
+            <state line="10" column="78" selection-start="331" selection-end="331" vertical-scroll-proportion="-5.769231" vertical-offset="0" max-vertical-offset="525">
               <folding>
                 <element signature="e#26#73#0" expanded="true" />
               </folding>
@@ -82,10 +82,19 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datasf/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="198" selection-end="198" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
+            <state line="4" column="56" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sfmovies/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="45" selection-start="97" selection-end="97" vertical-scroll-proportion="0.022255193" vertical-offset="0" max-vertical-offset="674">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sfmovies/urls.py" />
         <option value="$PROJECT_DIR$/datasf/static/datasf/datasf.css" />
         <option value="$PROJECT_DIR$/datasf/urls.py" />
         <option value="$PROJECT_DIR$/sfmovies/wsgi.py" />
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/datasf/static/datasf/scripts.js" />
         <option value="$PROJECT_DIR$/datasf/datasf_api.py" />
         <option value="$PROJECT_DIR$/datasf/views.py" />
+        <option value="$PROJECT_DIR$/sfmovies/urls.py" />
       </list>
     </option>
   </component>
@@ -394,6 +403,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -403,7 +413,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -436,24 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sfmovies/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.2670623" vertical-offset="0" max-vertical-offset="674">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datasf/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="198" selection-end="198" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sfmovies/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="32" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="600">
@@ -463,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sfmovies/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2284" selection-end="2284" vertical-scroll-proportion="-16.576923" vertical-offset="799" max-vertical-offset="1470">
+        <state line="84" column="0" selection-start="1987" selection-end="1987" vertical-scroll-proportion="-16.576923" vertical-offset="829" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
@@ -493,10 +484,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datasf/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="229" selection-end="229" vertical-scroll-proportion="0.17883755" vertical-offset="0" max-vertical-offset="671">
+        <state line="10" column="78" selection-start="331" selection-end="331" vertical-scroll-proportion="-5.769231" vertical-offset="0" max-vertical-offset="525">
           <folding>
             <element signature="e#26#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="56" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sfmovies/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="45" selection-start="97" selection-end="97" vertical-scroll-proportion="0.022255193" vertical-offset="0" max-vertical-offset="674">
+          <folding />
         </state>
       </provider>
     </entry>
