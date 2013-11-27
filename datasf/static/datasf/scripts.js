@@ -42,6 +42,7 @@ function mapInit() {
 	  map = new google.maps.Map(document.getElementById('map-canvas'), {
 	    mapTypeId: google.maps.MapTypeId.ROADMAP
 	  });
+	  //Get location (lat, lng) of San Francisco, CA so as to center the Map on it
 	  var address = 'San Francisco, CA'
 	  geocoder.geocode( { 'address': address}, function(results, status) {
           if (status == google.maps.GeocoderStatus.OK) {
@@ -58,8 +59,8 @@ function mapInit() {
 }
 function onPlaceOnMap(place) {
     var contentHtml = '<div id="film_name">' +
-							'<p><strong>'+place.name+'</strong></p>' +
-							'</div>';
+					    '<p><strong>'+place.name+'</strong></p>' +
+						'</div>';
 	infowindow = new google.maps.InfoWindow({content:"holding..."});
     var marker = new google.maps.Marker({
 	        map: map,
@@ -68,6 +69,7 @@ function onPlaceOnMap(place) {
 	        html: contentHtml
 	      });
 
+        //Event listener for when marker on map is clicked
 		google.maps.event.addListener(marker, 'click', function() {
 			infowindow.setContent(this.html);
 	  		infowindow.open(map,this);
