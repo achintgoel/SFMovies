@@ -26,16 +26,27 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sfmovies/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="51" selection-start="2494" selection-end="2494" vertical-scroll-proportion="-11.529411" vertical-offset="762" max-vertical-offset="1470">
+            <state line="63" column="0" selection-start="1641" selection-end="1641" vertical-scroll-proportion="-1.7843137" vertical-offset="854" max-vertical-offset="1500">
+              <folding>
+                <element signature="e#319#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sfmovies/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="57" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.49107143" vertical-offset="0" max-vertical-offset="672">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datasf/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="91" selection-start="423" selection-end="423" vertical-scroll-proportion="0.25462964" vertical-offset="0" max-vertical-offset="648">
+            <state line="10" column="52" selection-start="305" selection-end="305" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="525">
               <folding>
                 <element signature="e#26#73#0" expanded="true" />
               </folding>
@@ -105,19 +116,19 @@
         <option value="$PROJECT_DIR$/datasf/datasf_api.py" />
         <option value="$PROJECT_DIR$/sfmovies/urls.py" />
         <option value="$PROJECT_DIR$/datasf/static/datasf/datasf.css" />
-        <option value="$PROJECT_DIR$/sfmovies/settings.py" />
         <option value="$PROJECT_DIR$/datasf/templates/datasf/home.html" />
         <option value="$PROJECT_DIR$/datasf/urls.py" />
         <option value="$PROJECT_DIR$/datasf/static/datasf/scripts.js" />
         <option value="$PROJECT_DIR$/datasf/views.py" />
+        <option value="$PROJECT_DIR$/sfmovies/settings.py" />
+        <option value="$PROJECT_DIR$/sfmovies/wsgi.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-88" />
     <option name="y" value="22" />
     <option name="width" value="1400" />
-    <option name="height" value="822" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -378,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-88" y="22" width="1400" height="822" extended-state="0" />
+    <frame x="0" y="22" width="1400" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -444,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sfmovies/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="51" selection-start="2494" selection-end="2494" vertical-scroll-proportion="-11.529411" vertical-offset="762" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datasf/templates/datasf/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="795">
@@ -476,10 +480,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datasf/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="91" selection-start="423" selection-end="423" vertical-scroll-proportion="0.25462964" vertical-offset="0" max-vertical-offset="648">
+        <state line="10" column="52" selection-start="305" selection-end="305" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="525">
           <folding>
             <element signature="e#26#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sfmovies/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1641" selection-end="1641" vertical-scroll-proportion="-1.7843137" vertical-offset="854" max-vertical-offset="1500">
+          <folding>
+            <element signature="e#319#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sfmovies/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="57" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.49107143" vertical-offset="0" max-vertical-offset="672">
+          <folding />
         </state>
       </provider>
     </entry>
