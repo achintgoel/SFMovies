@@ -95,6 +95,8 @@ function onSearchFilm() {
 
 	markers = [];
 
+	jQuery("#search_results_description").html('<p class="text-muted">Showing Results for <strong>'+film_title+'</strong></p>')
+
     for(var i = 0, data; data = film_data[i]; i++) {
         if(data.locations) {
             var request = { bounds: SF_BOUNDS,
